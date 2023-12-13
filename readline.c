@@ -2,11 +2,6 @@
 #define _GNU_SOURCE
 
 /**
- * char *line = NULL, *command = NULL;
- * void handle_sigint(int sig)
- */
-
-/**
  * scanline - Scans the command given by the user
  * @prog: Our program name
  * @nonactive: Flag for non-interactive mode

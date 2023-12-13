@@ -5,6 +5,7 @@
  *@dir: A string representing the current directory
  * Return: No return
  */
+
 void prompt(char *dir)
 {
 	char *message = "$ ";

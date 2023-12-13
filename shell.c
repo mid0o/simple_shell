@@ -42,7 +42,6 @@ int main(int argc, char *argv[])
 			free_arguments(arguments);
 		}
 		/*
-  		 * Uncomment the following lines to exit the shell in non-interactive mode
 		 * if (nonactive)
 		 * active = 0;
 		 */

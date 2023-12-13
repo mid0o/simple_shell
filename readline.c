@@ -1,7 +1,7 @@
 #include "shell.h"
 #define _GNU_SOURCE
 
-/** 
+/**
  * char *line = NULL, *command = NULL;
  * void handle_sigint(int sig)
  */

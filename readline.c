@@ -1,7 +1,7 @@
 #include "shell.h"
 #define _GNU_SOURCE
 
-/* Note: The following lines have been commented out as they are not currently used.
+/** 
  * char *line = NULL, *command = NULL;
  * void handle_sigint(int sig)
  */
@@ -17,11 +17,6 @@ char *scanline(char *prog, int nonactive)
 	char *line = NULL;
 	size_t len = 0;
 	ssize_t read;
-
-/* Uncomment the following lines if you plan to handle the SIGINT signal
- * signal(SIGINT, handle_sigint);
- * errno = 0;
- */
 
     /*Read a line of input from the user*/
     /*read = getline(STDIN_FILENO, &line, &len);*/

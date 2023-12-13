@@ -7,7 +7,7 @@
  */
 
 /**
- * readline - Scans the command given by the user
+ * scanline - Scans the command given by the user
  * @prog: Our program name
  * @nonactive: Flag for non-interactive mode
  * Return: The command entered by the user

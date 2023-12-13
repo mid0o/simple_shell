@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * *_strdup - returns a pointer to a newly allocated space in memory
+ * pointer_str - returns a pointer to a newly allocated space in memory
  * @str: The string to copy
  * Return: pointer to string, or NULL if it fails
  */

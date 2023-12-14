@@ -1,11 +1,12 @@
 #include "shell.h"
 
 /**
- * divstr - splits a string into words.
+ * _strtok - splits a string into words.
  * @str: the strings
  * @delim: ou delimiter
  * Return: pointer to a new string, or NULL if it fails
  */
+
 char **_strtok(char *str, char delim)
 {
 	int i, j, k, word_count;
@@ -48,3 +49,4 @@ char **_strtok(char *str, char delim)
 
 	return (words);
 }
+
